@@ -23,7 +23,7 @@ public class UseCaseTracker {
     } 
 
     public static void main(String[] args) {
-        List<Integer> useCase = new ArrayList<>();
+        List<Integer> useCase = new ArrayList<Integer>();
         Collections.addAll(useCase, 47, 48, 49, 50);
         trackUseCase(useCase, PasswordUtils.class);
     }
